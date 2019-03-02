@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_layout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DocumentActivity"
+    android:theme="@style/Theme.AppCompat"
+    android:background="@color/BackgroundColour"
+    >
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fb_menu"
+            android:layout_below="@id/toolbar"
+             android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:fab_addButtonColorNormal="@color/pink"
+            app:fab_addButtonColorPressed="@color/pink_pressed"
+            app:fab_addButtonPlusIconColor="@color/white"
+            app:fab_labelStyle="@style/custom_fab">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_action1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="@color/white_pressed"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/capture"
+            app:fab_title="Edit"
+
+            />
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_action2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/white"
+                app:fab_colorPressed="@color/white_pressed"
+                app:fab_size="mini"
+                app:fab_icon="@drawable/capture"
+                app:fab_title="Capture"
+
+                />
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_action3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/pink_pressed"
+                app:fab_colorPressed="@color/pink"
+                app:fab_size="mini"
+                app:fab_icon="@drawable/capture"
+                app:fab_title="Save"
+
+                />
+</com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+
+
+</RelativeLayout>

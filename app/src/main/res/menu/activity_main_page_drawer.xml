@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/search1"
+            android:title="Search Load" />
+
+
+        <item
+            android:id="@+id/post"
+            android:icon="@drawable/truck1"
+            android:title="Post My Truck" />
+        <item
+            android:id="@+id/myload"
+            android:icon="@drawable/load1"
+            android:title="My Loads" />
+
+    </group>
+
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/paymnt"
+            android:icon="@drawable/money1"
+            android:title="Payments" />
+
+        <item
+            android:id="@+id/documnt"
+            android:icon="@drawable/document"
+            android:title="Documents"
+
+    />
+        <item
+            android:id="@+id/notif"
+            android:icon="@drawable/notification1"
+            android:title="Notification" />
+
+    </group>
+
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/group3">
+
+        <item
+            android:id="@+id/call"
+            android:icon="@drawable/phone1"
+            android:title="Call Support" />
+
+        <item
+            android:id="@+id/faq"
+            android:icon="@drawable/phone1"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help1"
+            android:title="Help and Support" />
+
+    </group>
+
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/group4"
+        >
+        <item
+            android:id="@+id/footer_spacer_1"
+            android:checkable="false"
+            android:enabled="false"
+            android:orderInCategory="200"
+            android:title="" />
+        <item
+            android:id="@+id/footer_spacer_2"
+            android:checkable="false"
+            android:enabled="false"
+            android:orderInCategory="200"
+            android:title="" />
+
+    </group>
+
+
+
+</menu>

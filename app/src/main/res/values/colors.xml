@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff751a</color>
+    <color name="colorPrimaryDark">#ff6600</color>
+    <color name="BackgroundColour">#282828</color>
+    <color name="Edit_BackgroundColour">#4e4e4e
+    </color>
+    <color name="BackgroundColour1">@color/Edit_BackgroundColour</color>
+
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+<color name="errorcolor">@color/textColor</color>
+
+    <!--<color name="colorPrimary">#795548</color>-->
+    <!--<color name="colorPrimaryDark">#5D4037</color>-->
+    <color name="underline">#ff751a</color>
+    <color name="receipt_background">#3f3f3f</color>
+<color name="Buttoncolor">#474747</color>
+    <color name="Button_color">#f0f3ef</color>
+    <color name="textColor">#f2f2f2</color>
+    <color name="textColorHint">#f2f2f2</color>
+    <color name="mtrl_textinput_default_box_stroke_color">@color/Edit_BackgroundColour</color>
+
+    <color name="black_overlay"></color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">@color/Edit_BackgroundColour</color>
+    <color name="white_pressed">@color/Edit_BackgroundColour</color>
+    <color name="pink">#ff751a</color>
+    <color name="pink_pressed">#ff751a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+</resources>

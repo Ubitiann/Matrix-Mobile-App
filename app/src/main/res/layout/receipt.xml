@@ -1,0 +1,94 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/receipt_border">
+
+
+        <RelativeLayout
+
+            android:id="@+id/linearLayoutId"
+            android:layout_width="match_parent"
+            android:background="@drawable/images"
+            android:layout_height="500dp">
+            <View
+
+                android:layout_marginTop="100dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/Edit_BackgroundColour"></View>
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="100dp"
+                android:background="@android:color/white"
+                android:minWidth="100dp"
+                android:scaleType="fitXY"
+                android:minHeight="100dp"
+                android:padding="1dp" />
+            <View
+                android:layout_marginTop="350dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/textColor"></View>
+
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:layout_marginTop="370dp"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="370dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/time"
+                android:text=""
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+            <LinearLayout
+                android:layout_below="@id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/comment"
+                    android:layout_marginTop="1dp"
+                    android:paddingTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/textColor"
+                    android:text=""
+                   android:textStyle="normal"
+                    />
+
+                />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

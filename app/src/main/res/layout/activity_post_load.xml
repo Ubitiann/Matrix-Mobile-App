@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/BackgroundColour"
+   
+
+    tools:context=".PostLoadActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_of_post_load"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+      
+        >
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_gravity="center"
+
+            android:layout_marginRight="10dp"
+            android:src="@drawable/tracking_enabled"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+          >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/from"
+                android:textColor="@color/half_black"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/origin"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:text="@string/click_here"
+                android:textColor="@color/half_black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+        android:layout_marginLeft="@dimen/image_size_width"
+        android:layout_marginTop="10dp"
+
+      android:layout_marginBottom="2dp"
+        android:background="@color/Edit_BackgroundColour"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+
+        android:layout_marginTop="10dp"
+        
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ic_location_on_black_24dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/to"
+                android:textColor="@color/half_black"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/destination"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:text="@string/click_here"
+                android:textColor="@color/half_black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+        android:layout_marginLeft="@dimen/image_size_width"
+        android:layout_marginTop="10dp"
+      android:layout_marginBottom="2dp"
+
+        android:background="@color/Edit_BackgroundColour"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_gravity="center"
+
+            android:layout_marginRight="10dp"
+            android:src="@drawable/tracking_enabled"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:orientation="vertical"
+
+        android:weightSum="1"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/material_type"
+            android:textColor="@color/half_black"
+            android:textSize="14sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/material_type"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".75"
+                android:gravity="center|left"
+                android:text="@string/click_here"
+                android:textColor="@color/half_black"
+                android:textSize="20sp"/>
+            <ImageView
+                android:id="@+id/material_type_img"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".25"
+                android:src="@drawable/greater"
+                />
+        </LinearLayout></LinearLayout>
+        </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+        android:layout_marginLeft="@dimen/image_size_width"
+        android:layout_marginTop="10dp"
+      android:layout_marginBottom="2dp"
+        android:background="@color/Edit_BackgroundColour"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+
+        >
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_gravity="center"
+
+            android:layout_marginRight="10dp"
+            android:src="@drawable/weight"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:orientation="vertical"
+
+        
+        android:weightSum="1"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/weight"
+            android:textColor="@color/half_black"
+            android:textSize="14sp"/>
+        <!--android:id="@+id/weight"-->
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center|left"
+            android:hint="0"
+            android:inputType="numberDecimal"
+            android:textColor="@color/half_black"
+            android:textColorHint="@color/Edit_BackgroundColour"
+            android:textSize="24sp"/>
+    </LinearLayout></LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+        android:layout_marginLeft="@dimen/image_size_width"
+        android:layout_marginTop="10dp"
+      android:layout_marginBottom="2dp"
+        android:background="@color/Edit_BackgroundColour"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_gravity="center"
+
+            android:layout_marginRight="10dp"
+            android:src="@drawable/machineryy"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:orientation="vertical"
+
+        android:weightSum="1"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/truck_type"
+            android:textColor="@color/half_black"
+            android:textSize="14sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/truck_type"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".75"
+                android:gravity="center|left"
+                android:text="@string/click_here"
+                android:textColor="@color/half_black"
+                android:textSize="20sp"/>
+            <ImageView
+                android:id="@+id/truck_type_image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".25"
+                android:src="@drawable/greater"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+        android:layout_marginLeft="@dimen/image_size_width"
+        android:layout_marginTop="10dp"
+      android:layout_marginBottom="2dp"
+        android:background="@color/Edit_BackgroundColour"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+
+        >
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_gravity="center"
+
+            android:layout_marginRight="10dp"
+            android:src="@drawable/load1"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:orientation="vertical"
+
+        android:weightSum="1"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/load_type"
+            android:textColor="@color/half_black"
+            android:textSize="14sp"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/three_button_design"
+
+           android:orientation="horizontal"
+           >
+           <TextView
+               android:id="@+id/any"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight=".3"
+               android:gravity="center"
+               android:text="@string/any"
+               android:textColor="#ffff"
+               android:textSize="22sp"
+              />
+           <TextView
+               android:id="@+id/full"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight=".3"
+               android:gravity="center"
+               android:text="@string/full"
+               android:textColor="#ffff"
+               android:textSize="22sp"
+               />
+           <TextView
+               android:id="@+id/part"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight=".3"
+
+               android:gravity="center"
+               android:text="@string/part"
+               android:textColor="#ffff"
+               android:textSize="22sp"
+               />
+       </LinearLayout>
+
+
+    </LinearLayout></LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_wssidth"
+        android:layout_marginLeft="@dimen/image_size_width"
+        android:layout_marginTop="10dp"
+      android:layout_marginBottom="2dp"
+        android:background="@color/Edit_BackgroundColour"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/calender"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:weightSum="1"
+
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/pick_date"
+            android:textColor="@color/half_black"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/date_picker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:text="@string/click_here"
+            android:textColor="@color/half_black"
+            android:textSize="20sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+
+        android:layout_marginLeft="@dimen/image_size_width"
+        android:layout_marginTop="10dp"
+      android:layout_marginBottom="2dp"
+        android:background="@color/Edit_BackgroundColour"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/timeee"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            
+            android:orientation="vertical"
+            android:weightSum="1"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/pick_time"
+                android:textColor="@color/half_black"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/time_picker"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:text="@string/click_here"
+                android:textColor="@color/half_black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+
+        android:layout_marginLeft="@dimen/image_size_width"
+        android:layout_marginTop="10dp"
+      android:layout_marginBottom="2dp"
+        android:background="@color/Edit_BackgroundColour"
+        />
+
+    <Button
+        android:id="@+id/post_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="60dp"
+  android:layout_marginTop="20dp"
+        android:layout_marginRight="@dimen/padding"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/post_button"
+        android:text="@string/post"
+        android:textSize="18sp"/>
+</LinearLayout>
+</ScrollView>
